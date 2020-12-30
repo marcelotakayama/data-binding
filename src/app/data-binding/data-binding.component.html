@@ -46,6 +46,11 @@
                 [class.alert-danger]="classe.value == 'alert-danger'">
                 Erro
             </div>
+
+            <div class="alert alert-danger" role="alert"
+                [style.display]="classe.value == 'alert-danger' ? 'block' : 'none'">
+                Esse texto somente em caso de erro
+            </div>
         </div>
     </article>
 </section>
