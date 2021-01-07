@@ -20,7 +20,7 @@ export class DataBindingComponent implements OnInit {
   }
 
   constructor() { }
-//teste2
+//teste3s
   ngOnInit(): void {
   }
 
